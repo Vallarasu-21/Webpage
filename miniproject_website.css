@@ -1,0 +1,80 @@
+body{
+	background-image: url(D:/downloads/hbgm.jpg);
+	color: white;
+	background-size: cover;
+}
+.title{
+	display: flex;
+	display: inline;
+	margin-left: 10px;
+}
+
+#img1{
+	float: left;
+	height: 75px;
+	width: 75px;
+	border-radius: 15px;
+	margin-left: 15px;
+}
+
+#head{
+	display: flex;
+	float: left;
+	margin-top: 8px;
+	margin-right: 5px;
+	width: 275px;
+	border-radius: 15px;
+}
+
+.navbar {
+  overflow: hidden;
+  display: flex;
+  float: right;
+  margin-top: 22px;
+  margin-bottom: 5px;
+  padding-right: 50px;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: orange;
+  border-radius: 15px;
+  padding-top: auto;
+}
+
+.navbar a:visited {
+	background-color: yellowgreen;
+}
+
+.navbar a:active {
+  background-color: blue;
+}
+
+.stream{
+	margin-top: 250px;
+	margin-left: 90px;
+	margin-bottom: 500px;
+}
+
+.stream a{
+ 	border: 1px solid black;
+ 	border-radius: 15px;
+ 	background-color: yellow;
+ 	text-decoration: none;
+ 	padding: 1rem;
+ 	margin-top: 10px;
+ } 
+.stream a:hover{
+ 	background-color: orange;
+ 	color: white;
+ }
+
+
+
